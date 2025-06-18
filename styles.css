@@ -148,8 +148,9 @@ section h2 {
   animation: fadeIn 1.8s ease-out forwards;
   opacity: 0;
   animation-delay: 0.8s;
-  margin-bottom: 180px;
+  margin-bottom: 60px; /* Updated from 180px */
 }
+
 
 .cta .cta-1:hover {
   background-color: transparent;
