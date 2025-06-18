@@ -133,27 +133,22 @@ section h2 {
   font-weight: 700;
   color: #3FA2F6;
 }
-
-/* CTA Buttons */
-.cta {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-.cta button {
+.cta a {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
   color: black;
   font-size: 1.2rem;
   font-weight: 600;
   padding: 15px 0;
   width: 200px;
-  border: none;
   border-radius: 8px;
   background-color: #3FA2F6;
   transition: background-color 0.12s, border 0.12s, color 0.21s, padding 0.12s;
   animation: fadeIn 1.8s ease-out forwards;
   opacity: 0;
   animation-delay: 0.8s;
+  margin-bottom: 180px;
 }
 
 .cta .cta-1:hover {
